@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "npx @angular/cli serve",
     "build": "ng build",
     "build:lib:prod": "ng build @swimlane/ngx-datatable --prod",
     "copy-files": "cp README.md dist/swimlane/ngx-datatable/README.md && cp LICENSE dist/swimlane/ngx-datatable/LICENSE && cpx \"src/assets/**/*\" \"dist/swimlane/ngx-datatable/assets\" && cpx \"projects/swimlane/ngx-datatable/src/lib/themes/**/*\" \"dist/swimlane/ngx-datatable/themes\"",
